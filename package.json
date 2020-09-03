@@ -1,0 +1,28 @@
+{
+  "name": "firstboltapp",
+  "version": "1.0.0",
+  "description": "Playing with making an app for slack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolopez10/boltApp.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "messaging"
+  ],
+  "author": "leo lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leolopez10/boltApp/issues"
+  },
+  "homepage": "https://github.com/leolopez10/boltApp#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.3.0",
+    "dotenv": "^8.2.0"
+  }
+}
